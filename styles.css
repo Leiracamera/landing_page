@@ -37,7 +37,12 @@
 .header-links a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 12px;
+    font-size: 15px;
+}
+
+.header-links a:hover {
+    color: lightslategrey;
+    
 }
 
 .hero-content {
@@ -119,6 +124,10 @@
     font-weight: bold;
   }
 
+  .button:hover {
+    color: darkslategrey;
+  }
+
   .quote {
     background-color: #e5e7eb;
     padding: 80px 200px;
@@ -159,6 +168,10 @@
 
   .button-call-to-action {
     border: 2px solid white;
+  }
+
+  .button-call-to-action {
+    margin-bottom: 0;
   }
 
   .footer p {
